@@ -12,6 +12,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/minefooter.css') }}" rel="stylesheet">
 </head>
 <body>
     <div id="app">
@@ -73,6 +74,12 @@
 
         @yield('content')
     </div>
+
+    <footer>
+
+        <p class="text-muted credit">Example courtesy <a href="https://www.linkedin.com/in/pacotiger/en/">Francisco Padilla</a></p>
+
+    </footer>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
