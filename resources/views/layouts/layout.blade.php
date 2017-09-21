@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'Manager Tasks Application') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -30,7 +30,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'Manager Tasks Application') }}
                     </a>
                 </div>
 
@@ -77,7 +77,7 @@
 
     <footer>
 
-        <p class="text-muted credit">Example courtesy <a href="https://www.linkedin.com/in/pacotiger/en/">Francisco Padilla</a></p>
+        <p class="text-muted credit">Example courtesy <a href="https://www.linkedin.com/in/pacotiger/en/">Paco Padilla</a></p>
 
     </footer>
 
